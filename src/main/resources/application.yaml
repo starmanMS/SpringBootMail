@@ -1,0 +1,18 @@
+spring:
+  mail:
+    host: smtp.qq.com
+    username: mirrorseek@qq.com
+    password: uozkyexbmhubbffg
+
+  datasource:
+    url: jdbc:mysql//localhost:3306/bms
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  redis:
+    host: localhost
+    port: 6379
+    database: 0
+  mvc:
+    static-path-pattern: static/**
